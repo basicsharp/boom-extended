@@ -55,7 +55,7 @@ var error = Boom.create(400, 'Bad request', { timestamp: Date.now() });
 
 ## Instance helper Methods
 
-### `extendObject(object)`
+### `extendOutput(object)`
 
 Extends the boom output object to add your own properties:
 - `object` - An object with the parameters to attach to the output. If a property key already exists in the output parameter, it will be overriden.
